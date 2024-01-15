@@ -13,7 +13,7 @@ import (
 var (
 	ErrEmptyBookName     = errors.New("book name cannot be empty")
 	ErrEmptyAuthor       = errors.New("author name cannot be empty")
-	ErrUnsupportedAuthor = errors.New("author name cannot be empty")
+	ErrUnsupportedAuthor = errors.New("author not supported")
 	ErrNoBooks           = errors.New("no books match your criteria")
 )
 
