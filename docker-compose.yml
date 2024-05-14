@@ -6,7 +6,7 @@ services:
       - discovery.type=single-node
       - xpack.monitoring.enabled=true
       - xpack.watcher.enabled=true
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
     ulimits:
       memlock:
         soft: -1

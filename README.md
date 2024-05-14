@@ -5,7 +5,7 @@ This repo is created for the [Ultimate Debugging with Go](https://www.bytesizego
 The goal of this project is to give an example of how you might structure your Go project, configure and use structured logging, send them to Elastic Search and view them by Kibana.  In this instance, I send them to Elastic Search via http endpoint (check out log/multi.go to see how I do this).
 
 ## Getting Started with this project
-Firstly, you must have docker installed. Once that is done you should be able to run `docker-compose up` in the root of the project to start elastic search and kibana.
+Firstly, you must have docker installed. Once that is done you should be able to run `docker compose up` in the root of the project to start elastic search and kibana.
 
 Kibana will be available to you on `http://localhost:5601`. Elasticsearch will be available at `http://localhost:9200`.   The first time you visit Kibana after sending a log, it might ask you to create an index. You can do this by just agreeing with the defaults.
 
