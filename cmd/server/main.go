@@ -21,7 +21,8 @@ func main() {
 
 	esURL := os.Getenv("ENV_ES_URL")
 	if esURL == "" {
-		log.Fatal("elasticsearch url cannot be empty")
+		//default
+		esURL = "http://localhost:9200"
 	}
 	logMode := os.Getenv("ENV_LOG_LEVEL")
 	if logMode == "debug" {
